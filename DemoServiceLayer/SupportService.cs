@@ -11,14 +11,21 @@ namespace DemoServiceLayer
 {
     public class SupportService
     {
+
+        private ServiceDbContext db;
+
         public SupportService()
         {
-
+            db = new ServiceDbContext();
         }
 
         public FundCollectionDTO GetFundCollections()
         {
             FundCollectionDTO dto = new FundCollectionDTO();
+
+            List<FundCollectionDTO> fundCollectionList = new List<FundCollectionDTO>();
+            var entity = db.FundCollection.Find();
+            
 
             return dto;
         }

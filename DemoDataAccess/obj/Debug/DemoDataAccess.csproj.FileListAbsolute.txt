@@ -1,0 +1,5 @@
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoDataAccess\bin\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoDataAccess\bin\Debug\DemoDataAccess.pdb
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoDataAccess\obj\Debug\DemoDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoDataAccess\obj\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoDataAccess\obj\Debug\DemoDataAccess.pdb

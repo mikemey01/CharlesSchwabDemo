@@ -1,0 +1,7 @@
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\bin\Debug\DemoServiceLayer.dll
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\bin\Debug\DemoServiceLayer.pdb
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\bin\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\bin\Debug\DemoDataAccess.pdb
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.dll
+C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.pdb

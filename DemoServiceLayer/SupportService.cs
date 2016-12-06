@@ -39,6 +39,14 @@ namespace DemoServiceLayer
             return entity;
         }
 
-        
+        protected void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+        }
+
+
     }
 }

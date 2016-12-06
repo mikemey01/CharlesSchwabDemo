@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using DemoServiceLayer.Models;
 using DemoServiceLayer;
@@ -11,7 +10,7 @@ using DemoDataAccess;
 
 namespace DemoWebService.Controllers
 {
-    public class DemoController : Controller
+    public class DemoController : ApiController
     {
         private SupportService SupportService { get; set; }
 
@@ -20,27 +19,54 @@ namespace DemoWebService.Controllers
             SupportService = new SupportService();
         }
 
-        // GET: Demo
-        public ActionResult Index()
+        [Route("api/demo")]
+        [HttpGet]
+        public IQueryable<FundCollectionDTO> GetAllFunds()
         {
-            ViewResult view = View();
-            view.ViewName = "Demo";
-            return view;
+            //Create instance of DTO
+            FundCollectionDTO dto = new FundCollectionDTO();
+
+            //Get IQueryable<FundCollection> entity
+            var entity = SupportService.GetAllFunds();
+
+            //Map IQueryable<FundCollection> to IQueryable<FundCollectionDTO> (could use Automapper here)
+            var allFundRecords = from f in entity
+                      select new FundCollectionDTO()
+                      {
+                          FundName = f.FundName,
+                          FundInceptionDate = f.FundInceptionDate,
+                          FundExpenseRatio = f.FundExpenseRatio
+                      };
+
+            //Return IQueryable
+            return allFundRecords;
         }
 
-        public ActionResult GetFunds()
+        [Route("api/{fundID}/demo")]
+        [HttpGet]
+        public IQueryable<FundCollectionDTO> GetFund(int fundID)
         {
-            List<FundCollectionDTO> list = new List<FundCollectionDTO>();
-            list = SupportService.GetFundCollections();
+            //Create instance of DTO
+            FundCollectionDTO dto = new FundCollectionDTO();
 
-            return Json(list, JsonRequestBehavior.AllowGet);
+            //Get IQueryable<FundCollection> entity
+            var entity = SupportService.GetAllFunds();
+
+            //Map IQueryable<FundCollection> to IQueryable<FundCollectionDTO> (could use Automapper here)
+            //Select one record based on ID
+            var allFundRecords = from f in entity
+                                 where f.ID == fundID
+                                 select new FundCollectionDTO()
+                                 {
+                                     FundName = f.FundName,
+                                     FundInceptionDate = f.FundInceptionDate,
+                                     FundExpenseRatio = f.FundExpenseRatio
+                                 };
+
+            //Return IQueryable
+            return allFundRecords;
         }
 
-        public ActionResult GetAllFunds()
-        {
-            SupportService.GetAllFunds();
-
-            return Json("", JsonRequestBehavior.AllowGet);
-        }
+        
     }
 }

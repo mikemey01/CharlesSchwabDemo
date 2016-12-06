@@ -69,29 +69,5 @@ namespace DemoWebService.Controllers
             return Request.CreateResponse(System.Net.HttpStatusCode.OK, oneRecord);
         }
 
-
-        [Route("api/demo/json")]
-        [HttpGet]
-        public HttpResponseMessage GetAllFundsJson()
-        {
-            //Create instance of DTO
-            FundCollectionDTO dto = new FundCollectionDTO();
-
-            //Get IQueryable<FundCollection> entity
-            var entity = SupportService.GetAllFunds();
-
-            //Map IQueryable<FundCollection> to IQueryable<FundCollectionDTO> (could use Automapper here)
-            var allFundRecords = from f in entity
-                                 select new FundCollectionDTO()
-                                 {
-                                     FundName = f.FundName,
-                                     FundInceptionDate = f.FundInceptionDate,
-                                     FundExpenseRatio = f.FundExpenseRatio
-                                 };
-            var list = allFundRecords.ToList<FundCollectionDTO>();
-
-            //Return IQueryable
-            return Request.CreateResponse(System.Net.HttpStatusCode.OK, JsonConvert.SerializeObject(list));
-        }
     }
 }

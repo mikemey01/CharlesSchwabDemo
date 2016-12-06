@@ -184,3 +184,5 @@ C:\Users\Mike\Desktop\schwab\demo\DemoWebService\bin\DemoDataAccess.pdb
 C:\Users\Mike\Desktop\schwab\demo\DemoWebService\obj\Debug\DemoWebService.csprojResolveAssemblyReference.cache
 C:\Users\Mike\Desktop\schwab\demo\DemoWebService\obj\Debug\DemoWebService.dll
 C:\Users\Mike\Desktop\schwab\demo\DemoWebService\obj\Debug\DemoWebService.pdb
+C:\Users\Mike\Desktop\schwab\demo\DemoWebService\bin\AutoMapper.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoWebService\bin\AutoMapper.xml

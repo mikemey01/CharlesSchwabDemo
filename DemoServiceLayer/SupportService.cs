@@ -19,15 +19,26 @@ namespace DemoServiceLayer
             db = new ServiceDbContext();
         }
 
-        public FundCollectionDTO GetFundCollections()
+        public List<FundCollectionDTO> GetFundCollections()
         {
             FundCollectionDTO dto = new FundCollectionDTO();
 
             List<FundCollectionDTO> fundCollectionList = new List<FundCollectionDTO>();
-            var entity = db.FundCollection.Find();
-            
+            IQueryable<FundCollection> iq = db.FundCollection;
 
-            return dto;
+            fundCollectionList = Mapper.Map <List<FundCollection>, List<FundCollectionDTO>>(iq.ToList());
+                
+            return fundCollectionList;
         }
+
+        public IQueryable<FundCollection> GetAllFunds()
+        {
+            var entity = db.FundCollection;
+            //var test = Mapper.Map<IQueryable<FundCollection>, IQueryable<FundCollectionDTO>>(entity);
+
+            return entity;
+        }
+
+        
     }
 }

@@ -16,6 +16,5 @@ namespace DemoDataAccess
         }
 
         public DbSet<FundCollection> FundCollection { get; set; }
-        
     }
 }

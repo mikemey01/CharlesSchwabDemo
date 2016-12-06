@@ -5,3 +5,17 @@ C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\bin\D
 C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.csprojResolveAssemblyReference.cache
 C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.dll
 C:\Users\Mike\Desktop\SchwabDemoWebservice\DemoWebService\DemoServiceLayer\obj\Debug\DemoServiceLayer.pdb
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\obj\Debug\DemoServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\obj\Debug\DemoServiceLayer.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\obj\Debug\DemoServiceLayer.pdb
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoServiceLayer.dll.config
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoServiceLayer.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoServiceLayer.pdb
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\AutoMapper.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoDataAccess.pdb
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\AutoMapper.xml
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.SqlServer.xml

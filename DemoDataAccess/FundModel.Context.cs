@@ -13,10 +13,10 @@ namespace DemoDataAccess
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class testsql03Entities1 : DbContext
+    public partial class testsql03Entities : DbContext
     {
-        public testsql03Entities1()
-            : base("name=testsql03Entities1")
+        public testsql03Entities()
+            : base("name=testsql03Entities")
         {
         }
     

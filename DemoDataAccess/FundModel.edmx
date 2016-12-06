@@ -31,7 +31,7 @@
           <Property Name="FundInceptionDate" Type="DateTime" Precision="3" />
           <Property Name="FundExpenseRatio" Type="Double" />
         </EntityType>
-        <EntityContainer Name="testsql03Entities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="testsql03Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="FundCollections" EntityType="Self.FundCollection" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="testsql03ModelStoreContainer" CdmEntityContainer="testsql03Entities1">
+        <EntityContainerMapping StorageEntityContainer="testsql03ModelStoreContainer" CdmEntityContainer="testsql03Entities">
           <EntitySetMapping Name="FundCollections">
             <EntityTypeMapping TypeName="testsql03Model.FundCollection">
               <MappingFragment StoreEntitySet="FundCollection">

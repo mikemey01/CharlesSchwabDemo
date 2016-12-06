@@ -322,6 +322,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DemoDataAccess\DemoDataAccess.csproj">
+      <Project>{6977116d-6412-4e25-a119-316e1f6abf0d}</Project>
+      <Name>DemoDataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DemoServiceLayer\DemoServiceLayer.csproj">
       <Project>{e1ba3af8-6e92-4eae-8bdc-42b77655a639}</Project>
       <Name>DemoServiceLayer</Name>

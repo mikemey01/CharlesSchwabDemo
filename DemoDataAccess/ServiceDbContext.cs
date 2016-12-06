@@ -9,9 +9,8 @@ namespace DemoDataAccess
 {
     public class ServiceDbContext : DbContext
     {
-        public FundCollection Context;
 
-        public ServiceDbContext()
+        public ServiceDbContext() : base("name=azureconnection")
         {
             
         }

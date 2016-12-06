@@ -19,3 +19,17 @@ C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\DemoDataAccess.pdb
 C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\AutoMapper.xml
 C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.xml
 C:\Users\Mike\Desktop\schwab\demo\DemoServiceLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\DemoServiceLayer.dll.config
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\DemoServiceLayer.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\DemoServiceLayer.pdb
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\AutoMapper.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\DemoDataAccess.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\DemoDataAccess.pdb
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\AutoMapper.xml
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\obj\Debug\DemoServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\obj\Debug\DemoServiceLayer.dll
+C:\Users\mmeyer\Desktop\schwab\DemoServiceLayer\obj\Debug\DemoServiceLayer.pdb

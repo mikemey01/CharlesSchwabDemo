@@ -21,6 +21,7 @@ namespace DemoWebService.Controllers
             SupportService = new SupportService();
         }
 
+        //GET
         [Route("api/demo")]
         [HttpGet]
         public HttpResponseMessage GetAllFunds()
@@ -44,6 +45,7 @@ namespace DemoWebService.Controllers
             return Request.CreateResponse(System.Net.HttpStatusCode.OK, allFundRecords);
         }
 
+        //GET
         [Route("api/{fundID}/demo")]
         [HttpGet]
         public HttpResponseMessage GetFund(int fundID)

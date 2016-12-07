@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Charles Schwab - Demo UI</title>
+    <!-- jQuery JavaScript -->
+    <script src="~/Scripts/kendo/2016.3.1118/jquery.min.js"></script>
+
+    <!-- Common Kendo UI CSS for web widgets and widgets for data visualization. -->
+    <link href="~/Content/kendo/2016.3.1118/kendo.common.min.css" rel="stylesheet" />
+
+    <!-- Default Kendo UI theme CSS for web widgets and widgets for data visualization. -->
+    <link href="~/Content/kendo/2016.3.1118/kendo.default.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/kendo/2016.3.1118/kendo.all.min.js"></script>
+
+</head>
+<body>
+    <div id="grid"> 
+        
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#grid").kendoGrid({
+                
+                height: 550,
+                groupable: true,
+                sortable: true,
+                pageable: {
+                    refresh: true,
+                    pageSizes: true,
+                    buttonCount: 5
+                },
+                columns: [{
+                    field: "FundName",
+                    title: "Fund Name"
+                }, {
+                    field: "FundInceptionDate",
+                    title: "Fund Inception Date"
+                }, {
+                    field: "ExpenseRatio",
+                    title: "Expense Ratio"
+                }]
+            });
+        });
+    </script>
+</body>
+
+</html>

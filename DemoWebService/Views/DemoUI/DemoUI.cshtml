@@ -28,8 +28,29 @@
 
     <script>
         $(document).ready(function () {
+            dataSource = new kendo.data.DataSource({
+                transport: {
+                    read: {
+                        url: "api/demo?json=true",
+                        dataType: "json",
+                        cache: false
+                    }
+                },
+                batch: true,
+                schema: {
+                    model: {
+                        id: "ID",
+                        fields: {
+                            FundName: {},
+                            FundInceptionDate: {},
+                            FundExpenseRatio: {}
+                        }
+                    }
+                }
+            });
+
             $("#grid").kendoGrid({
-                
+                dataSource: dataSource,
                 height: 550,
                 groupable: true,
                 sortable: true,
@@ -43,13 +64,19 @@
                     title: "Fund Name"
                 }, {
                     field: "FundInceptionDate",
-                    title: "Fund Inception Date"
+                    title: "Fund Inception Date",
+                    format: "{0:yyyy-MM-dd}",
+                    template: "#= kendo.toString(kendo.parseDate(data.FundInceptionDate, 'yyyy-MM-dd'), 'MM/dd/yyyy') #"
                 }, {
-                    field: "ExpenseRatio",
+                    field: "FundExpenseRatio",
                     title: "Expense Ratio"
-                }]
+                }, { command: ["edit", "destroy"], title: "&nbsp;", width: "200px" }],
+                editable: "inline"
             });
         });
+
+        //var grid = $('#grid').data("kendoGrid");
+        //grid.dataSource.read();
     </script>
 </body>
 

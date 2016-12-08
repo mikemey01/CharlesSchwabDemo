@@ -23,3 +23,13 @@ C:\Users\mmeyer\Desktop\schwab\DemoDataAccess\bin\Debug\EntityFramework.SqlServe
 C:\Users\mmeyer\Desktop\schwab\DemoDataAccess\obj\Debug\DemoDataAccess.csprojResolveAssemblyReference.cache
 C:\Users\mmeyer\Desktop\schwab\DemoDataAccess\obj\Debug\DemoDataAccess.dll
 C:\Users\mmeyer\Desktop\schwab\DemoDataAccess\obj\Debug\DemoDataAccess.pdb
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\DemoDataAccess.dll.config
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\DemoDataAccess.pdb
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Mike\Desktop\demo\DemoDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mike\Desktop\demo\DemoDataAccess\obj\Debug\DemoDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\demo\DemoDataAccess\obj\Debug\DemoDataAccess.dll
+C:\Users\Mike\Desktop\demo\DemoDataAccess\obj\Debug\DemoDataAccess.pdb
